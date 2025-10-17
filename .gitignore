@@ -1,0 +1,9 @@
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+
+# Kubernetes
+k8s/kubeconfig
+k8s/*.kubeconfig
+
+terraform/.DS_Store
