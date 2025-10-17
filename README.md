@@ -33,17 +33,17 @@ This repository contains a production-ready deployment of HTTPBin application on
 │   ├── 03-service.yaml
 │   └── 04-ingress.yaml
 │
-└── terraform/                   # Infrastructure as Code
-    ├── templates/               # Template files
-    ├── 00-initial.tf            # Provider and backend configuration
-    ├── 01-network.tf            # VPC and networking
-    ├── 02-route53.tf            # Private hosted zone
-    ├── 03-eks.tf                # EKS cluster
-    ├── 04-pod-identity.tf       # Pod identity for ALB controller
-    ├── config.s3.tfbackend      # S3 backend configuration
-    ├── terraform.tfvars         # Variables (gitignored)
-    ├── variables.tf             # Variable definitions
-    └── versions.tf              # Terraform and provider versions
+└── terraform/                   
+    ├── templates/               
+    ├── 00-initial.tf            
+    ├── 01-network.tf            
+    ├── 02-route53.tf            
+    ├── 03-eks.tf                
+    ├── 04-pod-identity.tf       
+    ├── config.s3.tfbackend      
+    ├── terraform.tfvars         
+    ├── variables.tf             
+    └── versions.tf              
 ```
 
 ---
