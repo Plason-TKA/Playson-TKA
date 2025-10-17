@@ -12,7 +12,7 @@ This repository contains a production-ready deployment of HTTPBin application on
 ✅ **Kubernetes Deployment** - HTTPBin with high availability configuration  
 ✅ **Even Distribution** - Pods distributed across all cluster nodes using pod anti-affinity  
 ✅ **Internal Load Balancer** - ALB created automatically via Kubernetes Ingress  
-✅ **Private DNS** - Route53 hosted zone for internal access (playson-tka.int)
+✅ **Private DNS** - Route53 hosted zone for internal access (playson-tka.int)  
 ✅ **Security Best Practices** - Proper IAM roles, Security Groups, and network isolation  
 ✅ **Resource Management** - CPU/Memory requests and limits configured  
 ✅ **Health Checks** - Liveness and readiness probes implemented  
