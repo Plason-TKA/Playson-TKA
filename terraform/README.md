@@ -194,6 +194,28 @@ module.eks.module.eks_managed_node_group["httbin"].module.user_data.null_resourc
 
 ---
 
+## Potential Improvements
+
+Potential Improvements
+This is a demonstration environment. For production use, consider the following improvements:
+
+Before using this in production:
+
+- [ ] Enable DynamoDB state locking
+- [ ] Separate VPC into shared Terraform state
+- [ ] Separate Route53 into shared Terraform state
+- [ ] Implement multi-environment structure
+- [ ] Add terraform-docs for documentation
+- [ ] Configure tflint with AWS ruleset
+- [ ] Set up pre-commit hooks
+- [ ] Implement CI/CD pipeline
+- [ ] Add security scanning (tfsec/Checkov)
+- [ ] Configure cost monitoring (Infracost)
+- [ ] Implement tagging strategy
+- [ ] Set up monitoring and alerting
+- [ ] Document runbooks for operations
+- [ ] Plan disaster recovery procedures
+
 ## Next Steps
 
 After Terraform deployment completes:
@@ -204,3 +226,4 @@ After Terraform deployment completes:
 4. ✅ Test endpoints using provided test script and using bastionhost or VPN
 
 For Kubernetes deployment instructions, see [`../k8s/README.md`](../k8s/README.md)
+
