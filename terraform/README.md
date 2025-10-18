@@ -220,10 +220,10 @@ Before using this in production:
 
 After Terraform deployment completes:
 
-1. ✅ Configure kubectl (see Post-Deployment section)
-2. ✅ Deploy Kubernetes resources from `k8s/` directory
-3. ✅ Verify HTTPBin deployment 
-4. ✅ Test endpoints using provided test script and using bastionhost or VPN
+1.  Configure kubectl (see Post-Deployment section)
+2.  Deploy Kubernetes resources from `k8s/` directory
+3.  Verify HTTPBin deployment 
+4.  Test endpoints using provided test script and using bastionhost or VPN
 
 For Kubernetes deployment instructions, see [`../k8s/README.md`](../k8s/README.md)
 
