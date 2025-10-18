@@ -42,8 +42,10 @@ This repository contains a production-ready deployment of HTTPBin application on
     ├── 04-pod-identity.tf       
     ├── config.s3.tfbackend      
     ├── terraform.tfvars         
-    ├── variables.tf             
-    └── versions.tf              
+    ├── variables.tf
+    ├── 99-output.tf              
+    └── versions.tf
+                  
 ```
 
 ---
